@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <img class="logo-alura" src="assets/logo alura.png" alt="Logo Alura">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="area-texto" cols="41" rows="4" placeholder="Digite seu texto aqui"></textarea>
+            
+            <div class="botoes">
+                <button class="botao-criptografar" onclick="botaoCriptografar()">Criptografar</button>
+                <button class="botao-descriptografar" onclick="botaoDescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+        
+        <section>
+            <textarea class="mensagem" cols="20" rows="10"></textarea> 
+            <button class="botao-copiar" onclick="botaoCopiar()">Copiar</button>      
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <footer class="rodape">
+        <p>Desenvolvido por Vinny Felipe</p>
+        <a class="icones" href="https://www.linkedin.com/in/vinny-felipe-5b7351264/" target="_blank" class="icon"><i class="fab fa-linkedin"></i></a>
+        <a class="icones" href="https://github.com/vinnyfelipee" target="_blank" class="icon"><i class="fab fa-github"></i></a>
+    </footer>
+    
+</body>
+</html>
